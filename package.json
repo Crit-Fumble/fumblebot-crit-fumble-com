@@ -1,18 +1,10 @@
 {
-  "name": "hobot",
+  "name": "fumblebot",
   "description": "A Discord bot I use for server admin based on the boilerplate by Nicolas Ribeiro",
   "version": "0.0.1",
   "private": false,
   "main": "./src/Launcher.js",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Playitec-Games/Hobot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Playitec-Games/Hobot/issues"
-  },
-  "homepage": "https://github.com/Playitec-Games/Hobot#readme",
   "scripts": {
     "deploy:build": "npm install --production=false && npm run build && npm ci",
     "build": "npm run build:clean && npm run build:compile",
@@ -29,7 +21,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "^18.17.1"
+    "node": "^20.18.1"
   },
   "author": "Daytrain",
   "dependencies": {
