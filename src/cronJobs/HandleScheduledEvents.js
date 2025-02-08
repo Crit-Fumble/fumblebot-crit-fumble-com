@@ -36,7 +36,7 @@ export default class HandleScheduledEvents extends CronJob {
         ?.filter(ev => ev.voiceChannel.members.size === 0);
       emptyActiveEvents
         ?.forEach((ev) => ev.setStatus(GuildScheduledEventStatus.Completed));
-      // filer down to active events
+      // filter down to active events
       // filter down to events that are in empty voice channels
       // stop the filtered events
     });
